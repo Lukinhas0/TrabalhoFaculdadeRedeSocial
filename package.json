@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-community/checkbox": "^0.5.16",
+    "@react-native-picker/picker": "2.4.10",
+    "@react-navigation/native": "^6.1.8",
+    "@react-navigation/stack": "^6.3.18",
+    "expo": "~49.0.13",
+    "expo-status-bar": "~1.6.0",
+    "firebase": "^10.11.1",
+    "react": "18.2.0",
+    "react-native": "0.72.10",
+    "react-native-check-box": "^2.1.7",
+    "expo-camera": "~13.4.4",
+    "react-native-web": "~0.19.6",
+    "react-dom": "18.2.0",
+    "@expo/webpack-config": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
